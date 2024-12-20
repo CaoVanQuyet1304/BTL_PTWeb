@@ -1,22 +1,21 @@
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
 <div class="sidebar">
   <div class="header_sidebar">
    <span>Menu</span>
    <i class='bx bx-menu' ></i>
   </div>
         <ul class="list_sidebar">
-            <li> 
+            <li><a href="admin_dashboard.php">
                <i class='bx bx-home' >
                 <span>Trang chủ </span>
                </i>
+            </a> 
             </li>
 
-            <li> <a href="../main/danhsach.php">
+            <li>
               <i class='bx bx-table' >
                 <span>Sinh viên </span>
               </i>
-            </a>
             </li>
 
             <li> <a href="../main/thongke.php">
@@ -40,9 +39,15 @@
 
             <li>
               <i class='bx bx-help-circle' >
-                <span>Help</span>
+                <span> Help </span>
               </i>
+            </li>
+            
+            <li> <a href="../logout.php">
+              <i class='bx bx-log-out' >
+               <span> Logout </span>
+              </i>
+             </a>
             </li>
         </ul>
 </div>
-            <script src="../../../js/script.js"></script>
