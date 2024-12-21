@@ -1,16 +1,18 @@
 body {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f2f5;
+    background-image: url(../image/Background.jpg);
+    background-size: cover;
     font-family: Arial, sans-serif;
+    margin-right: 60px;
 }
 
 form {
     background-color: white;
-    padding: 40px;
+    padding: 70px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -51,8 +53,11 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
-.error {
+.error{
     color: red;
+    background-color: #f8d7da;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
     margin-bottom: 20px;
 }

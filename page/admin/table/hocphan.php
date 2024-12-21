@@ -1,9 +1,8 @@
-<?php 
-    require_once "../../config/connect.php"
-     ?>
+
      <?php
      $result = $conn->query("SELECT * FROM db_hocphan");
      ?>
+     <h4> Danh sách học phần </h4>
                         <div class="card-body">
                             <table class="table">
                                 <thead class="thead-dark">
@@ -18,7 +17,7 @@
                                 </thead>
                                 <tbody>
                                     <?php 
-                                    $i = 0 ;
+                                    $i = 1 ;
                                     while($row= mysqli_fetch_assoc($result)){?>
                                 <tr>
                                     <td><?php echo $i++ ; ?></td>

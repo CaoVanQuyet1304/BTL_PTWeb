@@ -1,6 +1,6 @@
 <div id="main">
     <?php 
-    include("sidebar.php");
+    include("admin_sidebar.php");
      ?>
     <div class="container">
         <?php include("menu.php"); ?>
@@ -21,8 +21,10 @@
                 include("table/hocphan.php");
             }elseif($page == 'diemhocphan'){
                 include("table/diemhocphan.php");
+            }elseif($page == 'add'){
+                include("add.php");
             }else{
-                include("admin_dashboard.php");
+                echo "Không có dữ liệu";
             }
         ?>
         </div>

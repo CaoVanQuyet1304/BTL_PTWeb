@@ -1,6 +1,4 @@
-<?php 
-    require_once "../../config/connect.php"
-     ?>
+
      <?php
      $result = $conn->query("SELECT * FROM db_khoa");
      ?>
@@ -18,7 +16,7 @@
                                 </thead>
                                 <tbody>
                                     <?php 
-                                    $i = 0 ;
+                                    $i = 1 ;
                                     while($row= mysqli_fetch_assoc($result)){?>
                                 <tr>
                                     <td><?php echo $i++ ; ?></td>

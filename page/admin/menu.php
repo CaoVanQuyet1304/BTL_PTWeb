@@ -1,4 +1,3 @@
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <div class="container-fluid">
     <div class="card">
       <h2> Quản lý sinh viên </h2>
@@ -7,7 +6,7 @@
             <li> 
                 <a href="">
                     <i class='bx bxs-file-export' >
-                        <span> Nhập dữ liệu ra từ file CSV </span>
+                        <span> Nhập dữ liệu từ file CSV </span>
                     </i>
                 </a>
             </li>
@@ -34,10 +33,10 @@
         <div id="search">
             <form action="" method="post">
                 <input type="text" name="txtsearch">
-                <input type="submit" name="search" value="Search" placeholder="Tìm kiếm">
+                <input type="submit" name="search" value="Search">
             </form>
-            <li>
-                <a href="">
+            <li class="add">
+                <a href="admin_dashboard.php?page=add">
                 <i class='bx bx-plus' >
                     <span> Thêm sinh viên </span>
                 </i>

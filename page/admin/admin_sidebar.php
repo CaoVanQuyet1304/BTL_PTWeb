@@ -5,11 +5,12 @@
    <i class='bx bx-menu' ></i>
   </div>
         <ul class="list_sidebar">
-            <li><a href="admin_dashboard.php">
+            <li>
+              <a href="../admin_dashboard.php">
                <i class='bx bx-home' >
                 <span>Trang chủ </span>
                </i>
-            </a> 
+              </a>
             </li>
 
             <li>
