@@ -1,23 +1,23 @@
 body {
+    font-family: Arial, sans-serif;
+    background-image: url(../image/login.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    background-image: url(../image/Background.jpg);
-    background-size: cover;
-    font-family: Arial, sans-serif;
-    margin-right: 60px;
 }
 
 form {
     background-color: white;
-    padding: 70px;
+    padding: 90px 70px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
-    margin-right: 20px;
 }
 
 h2 {
@@ -32,7 +32,8 @@ label {
     color: #555;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"],
+input[type="password"],input[type="email"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -43,17 +44,18 @@ input[type="text"], input[type="password"] {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: white;
+    background-color: #00FFFF;
+    color: #121212;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #00CED1;
 }
-.error{
+
+.error {
     color: red;
     background-color: #f8d7da;
     padding: 10px;

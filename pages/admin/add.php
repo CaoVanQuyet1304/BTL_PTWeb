@@ -1,24 +1,5 @@
-<?php 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $masv = $_POST['masv'];
-    $holot = $_POST['holot'];
-    $ten = $_POST['ten'];
-    $malop = $_POST['malop'];
-    $dienthoai = $_POST['dienthoai'];
-    $email = $_POST['email'];
-    $c = $_POST['c'];
-    $b = $_POST['b'];
-    $a = $_POST['a'];
 
-    $sql = "INSERT INTO db_sinhvien (masv, holot, ten, malop, dienthoai, email, c, b, a) VALUES ('$masv', '$holot', '$ten', '$malop', '$dienthoai', '$email', '$c', '$b', '$a')";
-    if ($conn->query($sql) === TRUE) {
-        echo "Thêm sinh viên thành công";
-        header('Location: admin_dashboard.php');
-    } else {
-        echo "Lỗi! " . $sql . "<br>" . $conn->error;
-    }
-}
-?>
+<div class="container-fluid">
     <div class="add">
         <h2>Thêm sinh viên</h2>
         <form action="add_student.php" method="post">
@@ -52,5 +33,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="submit" value="Thêm sinh viên">
         </form>
     </div>
-</body>
-</html>
+</div>
